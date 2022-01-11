@@ -1,7 +1,7 @@
 const { consoleLog } = require("mocha/lib/reporters/base");
 
 function hasTargetSum(array, target) {
-  // Write your algorithm here
+
 for (i=0; i < array.length; i++) {
     for (j=i+1; j < array.length; j++) {
       if (array[i] + array[j] === target) {
@@ -14,7 +14,7 @@ for (i=0; i < array.length; i++) {
 
 /* 
   Write the Big O time complexity of your function here
-  0 (n^2)
+  Runtime: 0(n^2)
 */
 
 /* 
